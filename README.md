@@ -1,1 +1,1 @@
-# my first project CV
+**My CV project:** https://xmasfoxy.github.io/rsschool-cv/cv
