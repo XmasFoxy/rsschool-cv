@@ -266,3 +266,13 @@ footer {
 .footer-rslogo-container {
   width: 100px;
 }
+
+.about-code-header {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.about-code {
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 3%;
+}
