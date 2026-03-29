@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My own CV</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="nav-skills"><a href="#skills">Skills</a></li>
+        <li class="nav-experience"><a href="#experience">Experience</a></li>
+        <li class="nav-languages"><a href="#languages">Languages</a></li>
+        <li class="nav-education"><a href="#education">Education</a></li>
+        <li class="nav-contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-logo">
+      <img class="header-logo-rs" src="img/rs-logo.png" alt="rs school logo">
+    </div>
+  </header>
+
+  <main>
+    <section class="upper">
+      <div class="main-container-img">
+        <img class="main-img" src="img/fox.jpg" alt="my profile photo">
+      </div>
+      <pre class="welcome-text">
+  Hello,
+    my name is
+          <span class="color-name">Anthony</span>!
+      </pre>
+      <h1>Front-End Developer</h1>
+      <p class="my-goal-major">(In the future ^_^)</p>
+    </section>
+    <section class="about-me-section">
+      <h2 class="about-me-header">About me</h2>
+      <div class="about-me-text-container">
+        <p>So, hello? I'm a begginer developer, who loves:</p>
+        <ul class="about-me-hobby-list">
+          <li class="sport-info"><span class="strong">Sport</span>: I'm fond of soccer, but i don't mind to play
+            volleyball, ping pong, basketball
+            and chess. Yes I like sport activities, because it makes us stronger and healthier!</li>
+          <li class="animals-info"><span class="strong">Animals</span>: I really, really love any animals. My favorite
+            one is fox! It's so cute and
+            beautiful. I suppose animals help our meantality and can be out friends!</li>
+          <li class="music-info"><span class="strong">Music</span>: Music is a special world that will list your spirits
+            and help you to dream.
+            That's why I like listen to music! My favotite artist is JuiceWRLD, by the way.</li>
+          <li class="food-info"><span class="strong">Bad habbits</span>: I don't smoke and drink. But I guess my bad
+            habbit is fast food :)
+            Honestly, I try to eat it as seldom as possible!</li>
+        </ul>
+      </div>
+    </section>
+    <section class="about-skills-section" id="skills">
+      <h2 class="about-skills-header">What about my Skills?</h2>
+      <div class="about-skills-container">
+        <ul class="about-skills-list">
+          <li class="about-skills-html">HTML</li>
+          <li class="about-skills-css">CSS</li>
+          <li class="about-skills-js">JavaScript Basics</li>
+          <li class="about skills-git">GIT basics</li>
+        </ul>
+      </div>
+    </section>
+    <section class="about-experience-section" id="experience">
+      <h2 class="about-experience-header">My experience</h2>
+      <p class="about-experience-text">I worked as a Leading information security engineer. So i know, how the Internet
+        and Networks work, which devices are required to use the Internet. I have basic knowledge of domains, firewalls,
+        DLP-systems, PAM-systems. But I strive to become a front-end developer, so I try my best!</p>
+    </section>
+    <section class="about-code-section">
+      <div class="about-code-container">
+        <h2 class="about-code-header">My code example</h2>
+        <code class="about-code"><pre>    function isPalindrome(word) { 
+          const cleaned = word.toLowerCase().replace(/[^а-яa-z]/g); 
+          const reversed = cleaned.split("").reverse().join(""); 
+          return cleaned === reversed; 
+        }</pre>
+        </code>
+      </div>
+    </section>
+    <section class="about-languages-section" id="languages">
+      <h2 class="about-languages-header">My knowledge of languages</h2>
+      <div class="about-languages-container">
+        <ul>
+          <li class="about-languages-english">English B1</li>
+          <li class="about-languages-russian">Russian Native</li>
+          <li class="about-languages-belarusian">Belarussian Native</li>
+        </ul>
+      </div>
+    </section>
+    <section class="about-education-section" id="education">
+      <h2 class="about-education-header">Education</h2>
+      <div class="about-education-container">
+        <p>I'm a graduate of Belarussian State University of Transport. My major is a Programmer, business-analyst.
+          I'm still learning English using the Duolingo app.</p>
+        <img src="img/bsut.jpg" alt="Belarussian statement university of transport">
+      </div>
+    </section>
+    <section class="about-contact-section" id="contact">
+      <h2 class="about-contact-header">In touch:</h2>
+      <div class="about-contact-container">
+        <ul>
+          <li class="about-contact-number">Number: +375 (29) 777-77-77</li>
+          <li class="about-contact-mail">Email: royalhsik@gmail.com</li>
+          <li class="about-contact-telegram">Telegram: @XmasFox</li>
+          <li class="about-contact-linkedin">GitHub: <a href="https://github.com/XmasFoxy" target="_blank">XmasFoxy</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="footer-name">Anton Andreykovets</p>
+    <p class="footer-year">2026</p>
+    <div class="footer-github-container">
+      <a href="https://github.com/XmasFoxy" target="_blank">
+        <img src="img/github.webp" alt="GitHub logo">
+      </a>
+    </div>
+    <div class="footer-rslogo-container">
+      <a href="https://rs.school/ru/courses/javascript" target="_blank">
+        <img src="img/rs-school-logo.svg" alt="RS School logo">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
